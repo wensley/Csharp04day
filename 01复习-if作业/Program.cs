@@ -10,6 +10,7 @@ namespace _01复习_if作业
     {
         static void Main(string[] args)
         {
+            /*
             //作业1
             Console.WriteLine("请输入您的年龄：");
             int age = Convert.ToInt32(Console.ReadLine());
@@ -62,7 +63,7 @@ namespace _01复习_if作业
             Console.WriteLine("登陆失败");
             
             Console.ReadKey();
-
+            */
             ///这是正确的做法
             //作业2
             Console.WriteLine("请输入您的语文成绩：");
