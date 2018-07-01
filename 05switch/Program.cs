@@ -10,10 +10,11 @@ namespace _05switch
     {
         static void Main(string[] args)
         {
+            /*
             Console.WriteLine("请输入您对李四的评定等级（A-E）？");
             string input = Console.ReadLine();
             decimal salary = 5000m;
-            bool flag = true;
+            bool flag = false;
             if (input == "A")
             {
                 salary += 500;
@@ -24,7 +25,6 @@ namespace _05switch
             }
             if (input == "C")
             {
-                
             }
             if (input == "D")
             {
@@ -34,11 +34,50 @@ namespace _05switch
             {
                 salary -= 500;
             }
-            else
+            if (flag == true)
             {
                 Console.WriteLine("您的输入有误，只能输入ABCDE");
+                
             }
             Console.WriteLine("李四评级后的工资为" + salary);
+            */
+            //SWITCH 写法
+
+            Console.WriteLine("请输入您对李四的评定等级（A-E）？");
+            string input = Console.ReadLine();
+            decimal salary = 5000m;
+            bool flag = false;
+            switch (input)
+            {
+                case "A":
+                    salary += 500;
+                    break;
+
+                case "B":
+                    salary += 200;
+                    break;
+                default://注意：匹配值和语句顺序无关，只和值有关！
+                    Console.WriteLine("您的输入有误，只能输入ABCDE。");
+                    flag = true;
+                    break;
+                case "C":
+                    salary += 0;
+                    break;
+                case "D":
+                    salary -= 200;
+                    break;
+                case "E":
+                    salary -= 500;
+                    break;
+            }
+            if (flag == false)
+            {
+                //Console.WriteLine("您的输入有误，只能输入ABCDE。");
+                Console.WriteLine("李四评级后的工资为" + salary);
+            }
+            
+            Console.ReadKey();
+
         }
     }
 }
