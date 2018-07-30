@@ -18,7 +18,6 @@ namespace _06P55习题
             int moth = Convert.ToInt32(Console.ReadLine());
             int days=30;
             
-
             switch (moth)
             {
                 case 1:

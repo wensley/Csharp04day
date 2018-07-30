@@ -77,7 +77,6 @@ namespace _05switch
             }
             
             Console.ReadKey();
-
-        }
+                    }
     }
 }

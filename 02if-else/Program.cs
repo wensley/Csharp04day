@@ -85,14 +85,12 @@ namespace _02if_else
             {
                 Console.WriteLine("C");
             }
-
-
+            
             if (70>score && score >= 60)
             {
                 Console.WriteLine("D");
             }
-
-
+            
             if (score<60)
             {
                 Console.WriteLine("E");
@@ -138,12 +136,7 @@ namespace _02if_else
 
             Console.ReadKey();
             */
-
-
-
-
-
-
+                        
         }
     }
 }

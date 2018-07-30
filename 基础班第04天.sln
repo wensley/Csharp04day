@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05switch", "05switch\05swit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06P55习题", "06P55习题\06P55习题.csproj", "{03F979D5-09F5-4A77-AF49-FFBC0F65AEA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07while循环", "07while循环\07while循环.csproj", "{943D3F58-424D-4CF8-B371-9DBC95F0387F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{03F979D5-09F5-4A77-AF49-FFBC0F65AEA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03F979D5-09F5-4A77-AF49-FFBC0F65AEA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03F979D5-09F5-4A77-AF49-FFBC0F65AEA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{943D3F58-424D-4CF8-B371-9DBC95F0387F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{943D3F58-424D-4CF8-B371-9DBC95F0387F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{943D3F58-424D-4CF8-B371-9DBC95F0387F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{943D3F58-424D-4CF8-B371-9DBC95F0387F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

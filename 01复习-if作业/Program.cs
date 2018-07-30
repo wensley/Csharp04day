@@ -84,7 +84,6 @@ namespace _01复习_if作业
             if (userName == "admin" && myPass == "mypass")
             {
                 Console.WriteLine("登陆成功");
-                
             }
             Console.WriteLine("用户名或密码错误！");
             Console.ReadKey();
